@@ -23,7 +23,18 @@
 </nav>
 </template>
 <script>
-export default{};
+export default{
+    data(){
+        return{
+            conversations:[]
+        }
+    },
+    mounted(){
+        this.$api.get('channels').then(response=>{
+            this.conversations = response.data
+        })
+    }
+}
 </script>
 <style>
 </style>
