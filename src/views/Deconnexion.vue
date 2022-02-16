@@ -1,13 +1,14 @@
-.<template>
-  
+<template>
+    <div>Deconnexion en cours</div>
 </template>
 
 <script>
-export default {
-
+export default{
+    mounted(){
+        this.$store.commit("setToken",false);
+        setTimeout(()=>{
+            this.$router.push("/connexion");
+        }, 100);
+    },
 }
 </script>
-
-<style>
-
-</style>
