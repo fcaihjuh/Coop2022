@@ -20,7 +20,7 @@
       </div>
       <div class="navbar-item">
         <div class="buttons">
-          <router-link class="button is-warning" to="/deconnection">se deconnecter</router-link>
+          <router-link class="button is-warning" to="/deconnexion">se déconnecter</router-link>
         </div>
       </div>
      
