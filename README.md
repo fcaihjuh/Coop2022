@@ -20,6 +20,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 # Project
 
+Members: Florence Cai, Alice Cai
+
             The application show 4 "screens": Login: Log in/create an account,
             member list: View the list of members/View a member's profile,
             conversation list: See the conversations and their description, list
